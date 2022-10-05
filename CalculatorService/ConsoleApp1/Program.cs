@@ -25,6 +25,7 @@ namespace ConsoleApp1
                 Console.WriteLine("5. Exit");
                 Console.WriteLine("\t Enter your choice: ");
                 choice = Console.ReadLine();
+                //test
 
                 switch (choice)
                 {
