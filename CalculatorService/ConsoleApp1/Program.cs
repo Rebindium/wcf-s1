@@ -14,7 +14,6 @@ namespace ConsoleApp1
             ServiceReference1.Service1Client client = new ServiceReference1.Service1Client();
             string choice = "";
             double n1, n2, n3;
-            double dummy;
 
             while (!choice.Equals("5"))
             {
@@ -26,7 +25,6 @@ namespace ConsoleApp1
                 Console.WriteLine("5. Exit");
                 Console.WriteLine("\t Enter your choice: ");
                 choice = Console.ReadLine();
-                //test
 
                 switch (choice)
                 {
